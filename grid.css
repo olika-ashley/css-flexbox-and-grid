@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    place-items: center;
+    height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "a b c"
+    ;
+    width: 50%;
+    margin: auto;
+}
+main div{
+    padding: 2em;
+    text-align: left;
+}
+.item-a{
+    background-color: hsl(31, 71%, 52%);
+    grid-area: a;
+}
+.item-a h1{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-size: bold;
+}
+.item-a p{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.item-b{
+    background-color: hsl(184, 100%, 22%);
+    grid-area: b;
+}
+.item-b h1{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-size: bold;
+}
+.item-b p{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.item-c{
+    background-color: hsl(179, 100%, 13%);
+    grid-area: c;
+}
+.item-c h1{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-size: bold;
+}
+.item-c p{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.first{
+    background-color: white;
+    border: 1px solid hsl(31, 77%, 52%);
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    color: hsl(31, 77%, 52%);
+}    
+.second{
+    background-color: white;
+    border: 1px solid hsl(184, 100%, 22%);
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    color: hsl(184, 100%, 22%);
+}
+.third{
+    background-color: white;
+    border: 1px solid hsl(179, 100%, 13%);
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    color: hsl(179, 100%, 13%);
+}
